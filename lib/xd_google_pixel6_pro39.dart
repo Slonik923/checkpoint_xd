@@ -3,8 +3,8 @@ import 'package:adobe_xd/pinned.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
 class XDGooglePixel6Pro39 extends StatelessWidget {
-  XDGooglePixel6Pro39({
-    Key key,
+  const XDGooglePixel6Pro39({
+    Key? key,
   }) : super(key: key);
   @override
   Widget build(BuildContext context) {
@@ -22,7 +22,7 @@ class XDGooglePixel6Pro39 extends StatelessWidget {
             ),
           ),
           Align(
-            alignment: Alignment(0.0, 0.582),
+            alignment: const Alignment(0.0, 0.582),
             child: SizedBox(
               width: 200.0,
               height: 232.0,
@@ -41,14 +41,14 @@ class XDGooglePixel6Pro39 extends StatelessWidget {
                       decoration: BoxDecoration(
                         color: const Color(0xff88527f),
                         borderRadius:
-                            BorderRadius.all(Radius.elliptical(9999.0, 9999.0)),
+                            const BorderRadius.all(Radius.elliptical(9999.0, 9999.0)),
                         border: Border.all(
                             width: 1.0, color: const Color(0x00000000)),
                       ),
                     ),
                   ),
                   Align(
-                    alignment: Alignment(0.0, -0.416),
+                    alignment: const Alignment(0.0, -0.416),
                     child: SizedBox(
                       width: 64.0,
                       height: 31.0,
@@ -100,8 +100,8 @@ class XDGooglePixel6Pro39 extends StatelessWidget {
                   Pin(start: 0.0, end: 0.0),
                   Pin(size: 117.0, start: 0.0),
                   child: Container(
-                    decoration: BoxDecoration(
-                      color: const Color(0xff337cbc),
+                    decoration: const BoxDecoration(
+                      color: Color(0xff337cbc),
                       borderRadius: BorderRadius.only(
                         topLeft: Radius.circular(10.0),
                         topRight: Radius.circular(10.0),
@@ -110,7 +110,7 @@ class XDGooglePixel6Pro39 extends StatelessWidget {
                   ),
                 ),
                 Padding(
-                  padding: EdgeInsets.fromLTRB(41.8, 6.9, 45.9, 0.0),
+                  padding: const EdgeInsets.fromLTRB(41.8, 6.9, 45.9, 0.0),
                   child: Stack(
                     children: <Widget>[
                       Pinned.fromPins(
@@ -130,15 +130,15 @@ class XDGooglePixel6Pro39 extends StatelessWidget {
                                   Pin(size: 73.0, middle: 0.5),
                                   Pin(size: 71.0, start: 24.5),
                                   child: Container(
-                                    decoration: BoxDecoration(
-                                      color: const Color(0xff88527f),
+                                    decoration: const BoxDecoration(
+                                      color: Color(0xff88527f),
                                       borderRadius: BorderRadius.all(
                                           Radius.elliptical(9999.0, 9999.0)),
                                     ),
                                   ),
                                 ),
                                 Align(
-                                  alignment: Alignment(0.0, -0.416),
+                                  alignment: const Alignment(0.0, -0.416),
                                   child: SizedBox(
                                     width: 47.0,
                                     height: 23.0,
@@ -183,7 +183,7 @@ class XDGooglePixel6Pro39 extends StatelessWidget {
                         ),
                       ),
                       Align(
-                        alignment: Alignment(-1.0, -0.384),
+                        alignment: const Alignment(-1.0, -0.384),
                         child: SizedBox(
                           width: 47.0,
                           height: 47.0,
@@ -195,8 +195,8 @@ class XDGooglePixel6Pro39 extends StatelessWidget {
                                 child: Transform.rotate(
                                   angle: 1.5708,
                                   child: Container(
-                                    decoration: BoxDecoration(
-                                      color: const Color(0xffffffff),
+                                    decoration: const BoxDecoration(
+                                      color: Color(0xffffffff),
                                       borderRadius: BorderRadius.only(
                                         topLeft: Radius.circular(4.32),
                                         topRight: Radius.circular(4.32),
@@ -211,8 +211,8 @@ class XDGooglePixel6Pro39 extends StatelessWidget {
                                 Pin(start: 0.0, end: 0.0),
                                 Pin(size: 10.2, middle: 0.5),
                                 child: Container(
-                                  decoration: BoxDecoration(
-                                    color: const Color(0xffffffff),
+                                  decoration: const BoxDecoration(
+                                    color: Color(0xffffffff),
                                     borderRadius: BorderRadius.only(
                                       topLeft: Radius.circular(4.32),
                                       topRight: Radius.circular(4.32),
@@ -227,7 +227,7 @@ class XDGooglePixel6Pro39 extends StatelessWidget {
                         ),
                       ),
                       Align(
-                        alignment: Alignment(1.0, -0.332),
+                        alignment: const Alignment(1.0, -0.332),
                         child: SizedBox(
                           width: 40.0,
                           height: 33.0,
@@ -237,8 +237,8 @@ class XDGooglePixel6Pro39 extends StatelessWidget {
                                 Pin(start: 0.0, end: 0.0),
                                 Pin(size: 8.6, start: 0.0),
                                 child: Container(
-                                  decoration: BoxDecoration(
-                                    color: const Color(0xffffffff),
+                                  decoration: const BoxDecoration(
+                                    color: Color(0xffffffff),
                                     borderRadius: BorderRadius.only(
                                       topLeft: Radius.circular(4.32),
                                       topRight: Radius.circular(4.32),
@@ -252,8 +252,8 @@ class XDGooglePixel6Pro39 extends StatelessWidget {
                                 Pin(start: 0.0, end: 0.0),
                                 Pin(size: 8.6, middle: 0.5),
                                 child: Container(
-                                  decoration: BoxDecoration(
-                                    color: const Color(0xffffffff),
+                                  decoration: const BoxDecoration(
+                                    color: Color(0xffffffff),
                                     borderRadius: BorderRadius.only(
                                       topLeft: Radius.circular(4.32),
                                       topRight: Radius.circular(4.32),
@@ -267,8 +267,8 @@ class XDGooglePixel6Pro39 extends StatelessWidget {
                                 Pin(start: 0.0, end: 0.0),
                                 Pin(size: 8.6, end: 0.0),
                                 child: Container(
-                                  decoration: BoxDecoration(
-                                    color: const Color(0xffffffff),
+                                  decoration: const BoxDecoration(
+                                    color: Color(0xffffffff),
                                     borderRadius: BorderRadius.only(
                                       topLeft: Radius.circular(4.32),
                                       topRight: Radius.circular(4.32),

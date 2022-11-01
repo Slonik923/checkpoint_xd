@@ -1,6 +1,5 @@
+import 'package:checkpoint_xd/xd_google_pixel6_pro35.dart';
 import 'package:flutter/material.dart';
-
-import 'xd_google_pixel6_pro1.dart';
 
 void main() {
   runApp(const MyApp());
@@ -26,7 +25,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: XDGooglePixel6Pro1()
+      home: const XDGooglePixel6Pro35()
     );
   }
 }

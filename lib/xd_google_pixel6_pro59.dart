@@ -5,8 +5,8 @@ import 'package:adobe_xd/page_link.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
 class XDGooglePixel6Pro59 extends StatelessWidget {
-  XDGooglePixel6Pro59({
-    Key key,
+  const XDGooglePixel6Pro59({
+    Key? key,
   }) : super(key: key);
   @override
   Widget build(BuildContext context) {
@@ -32,8 +32,8 @@ class XDGooglePixel6Pro59 extends StatelessWidget {
                   Pin(start: 0.0, end: 0.0),
                   Pin(size: 117.0, start: 0.0),
                   child: Container(
-                    decoration: BoxDecoration(
-                      color: const Color(0xff337cbc),
+                    decoration: const BoxDecoration(
+                      color: Color(0xff337cbc),
                       borderRadius: BorderRadius.only(
                         topLeft: Radius.circular(10.0),
                         topRight: Radius.circular(10.0),
@@ -42,7 +42,7 @@ class XDGooglePixel6Pro59 extends StatelessWidget {
                   ),
                 ),
                 Padding(
-                  padding: EdgeInsets.fromLTRB(41.8, 6.9, 45.9, 0.0),
+                  padding: const EdgeInsets.fromLTRB(41.8, 6.9, 45.9, 0.0),
                   child: Stack(
                     children: <Widget>[
                       Pinned.fromPins(
@@ -62,15 +62,15 @@ class XDGooglePixel6Pro59 extends StatelessWidget {
                                   Pin(size: 73.0, middle: 0.5),
                                   Pin(size: 71.0, start: 24.5),
                                   child: Container(
-                                    decoration: BoxDecoration(
-                                      color: const Color(0xff88527f),
+                                    decoration: const BoxDecoration(
+                                      color: Color(0xff88527f),
                                       borderRadius: BorderRadius.all(
                                           Radius.elliptical(9999.0, 9999.0)),
                                     ),
                                   ),
                                 ),
                                 Align(
-                                  alignment: Alignment(0.0, -0.416),
+                                  alignment: const Alignment(0.0, -0.416),
                                   child: SizedBox(
                                     width: 47.0,
                                     height: 23.0,
@@ -115,7 +115,7 @@ class XDGooglePixel6Pro59 extends StatelessWidget {
                         ),
                       ),
                       Align(
-                        alignment: Alignment(-1.0, -0.384),
+                        alignment: const Alignment(-1.0, -0.384),
                         child: SizedBox(
                           width: 47.0,
                           height: 47.0,
@@ -127,8 +127,8 @@ class XDGooglePixel6Pro59 extends StatelessWidget {
                                 child: Transform.rotate(
                                   angle: 1.5708,
                                   child: Container(
-                                    decoration: BoxDecoration(
-                                      color: const Color(0xffffffff),
+                                    decoration: const BoxDecoration(
+                                      color: Color(0xffffffff),
                                       borderRadius: BorderRadius.only(
                                         topLeft: Radius.circular(4.32),
                                         topRight: Radius.circular(4.32),
@@ -143,8 +143,8 @@ class XDGooglePixel6Pro59 extends StatelessWidget {
                                 Pin(start: 0.0, end: 0.0),
                                 Pin(size: 10.2, middle: 0.5),
                                 child: Container(
-                                  decoration: BoxDecoration(
-                                    color: const Color(0xffffffff),
+                                  decoration: const BoxDecoration(
+                                    color: Color(0xffffffff),
                                     borderRadius: BorderRadius.only(
                                       topLeft: Radius.circular(4.32),
                                       topRight: Radius.circular(4.32),
@@ -159,7 +159,7 @@ class XDGooglePixel6Pro59 extends StatelessWidget {
                         ),
                       ),
                       Align(
-                        alignment: Alignment(1.0, -0.332),
+                        alignment: const Alignment(1.0, -0.332),
                         child: SizedBox(
                           width: 40.0,
                           height: 33.0,
@@ -169,8 +169,8 @@ class XDGooglePixel6Pro59 extends StatelessWidget {
                                 Pin(start: 0.0, end: 0.0),
                                 Pin(size: 8.6, start: 0.0),
                                 child: Container(
-                                  decoration: BoxDecoration(
-                                    color: const Color(0xffffffff),
+                                  decoration: const BoxDecoration(
+                                    color: Color(0xffffffff),
                                     borderRadius: BorderRadius.only(
                                       topLeft: Radius.circular(4.32),
                                       topRight: Radius.circular(4.32),
@@ -184,8 +184,8 @@ class XDGooglePixel6Pro59 extends StatelessWidget {
                                 Pin(start: 0.0, end: 0.0),
                                 Pin(size: 8.6, middle: 0.5),
                                 child: Container(
-                                  decoration: BoxDecoration(
-                                    color: const Color(0xffffffff),
+                                  decoration: const BoxDecoration(
+                                    color: Color(0xffffffff),
                                     borderRadius: BorderRadius.only(
                                       topLeft: Radius.circular(4.32),
                                       topRight: Radius.circular(4.32),
@@ -199,8 +199,8 @@ class XDGooglePixel6Pro59 extends StatelessWidget {
                                 Pin(start: 0.0, end: 0.0),
                                 Pin(size: 8.6, end: 0.0),
                                 child: Container(
-                                  decoration: BoxDecoration(
-                                    color: const Color(0xffffffff),
+                                  decoration: const BoxDecoration(
+                                    color: Color(0xffffffff),
                                     borderRadius: BorderRadius.only(
                                       topLeft: Radius.circular(4.32),
                                       topRight: Radius.circular(4.32),
@@ -223,12 +223,12 @@ class XDGooglePixel6Pro59 extends StatelessWidget {
           Pinned.fromPins(
             Pin(size: 204.0, start: 55.0),
             Pin(size: 79.0, start: 89.0),
-            child: Text(
+            child: const Text(
               'Prehľad\ncheckpointov',
               style: TextStyle(
                 fontFamily: 'Adobe Clean',
                 fontSize: 36,
-                color: const Color(0xff02233c),
+                color: Color(0xff02233c),
                 fontWeight: FontWeight.w700,
                 height: 0.9444444444444444,
               ),
@@ -302,12 +302,12 @@ class XDGooglePixel6Pro59 extends StatelessWidget {
                               Pinned.fromPins(
                                 Pin(size: 192.0, end: 45.0),
                                 Pin(size: 37.0, start: 11.0),
-                                child: Text(
+                                child: const Text(
                                   'Checkpoint #120',
                                   style: TextStyle(
                                     fontFamily: 'Adobe Clean',
                                     fontSize: 30,
-                                    color: const Color(0xffffffff),
+                                    color: Color(0xffffffff),
                                     fontWeight: FontWeight.w300,
                                     height: 1.9333333333333333,
                                   ),
@@ -319,12 +319,12 @@ class XDGooglePixel6Pro59 extends StatelessWidget {
                               Pinned.fromPins(
                                 Pin(size: 191.0, middle: 0.5818),
                                 Pin(size: 67.0, end: 9.4),
-                                child: Text(
+                                child: const Text(
                                   'Pánske toalety,\n1. Poschodie',
                                   style: TextStyle(
                                     fontFamily: 'Adobe Clean',
                                     fontSize: 30,
-                                    color: const Color(0xffffffff),
+                                    color: Color(0xffffffff),
                                     fontWeight: FontWeight.w700,
                                     height: 1,
                                   ),
@@ -341,9 +341,9 @@ class XDGooglePixel6Pro59 extends StatelessWidget {
                             child:
                                 // Adobe XD layer: 'RedLogoAsset 4' (shape)
                                 Container(
-                              decoration: BoxDecoration(
+                              decoration: const BoxDecoration(
                                 image: DecorationImage(
-                                  image: const AssetImage(''),
+                                  image: AssetImage(''),
                                   fit: BoxFit.fill,
                                 ),
                               ),
@@ -368,12 +368,12 @@ class XDGooglePixel6Pro59 extends StatelessWidget {
                               Pinned.fromPins(
                                 Pin(size: 186.0, middle: 0.5565),
                                 Pin(size: 37.0, start: 11.0),
-                                child: Text(
+                                child: const Text(
                                   'Checkpoint #121',
                                   style: TextStyle(
                                     fontFamily: 'Adobe Clean',
                                     fontSize: 30,
-                                    color: const Color(0xffffffff),
+                                    color: Color(0xffffffff),
                                     fontWeight: FontWeight.w300,
                                     height: 1.9333333333333333,
                                   ),
@@ -385,12 +385,12 @@ class XDGooglePixel6Pro59 extends StatelessWidget {
                               Pinned.fromPins(
                                 Pin(size: 203.0, end: 34.0),
                                 Pin(size: 67.0, end: 9.4),
-                                child: Text(
+                                child: const Text(
                                   'Dámske toalety,\n1. Poschodie',
                                   style: TextStyle(
                                     fontFamily: 'Adobe Clean',
                                     fontSize: 30,
-                                    color: const Color(0xffffffff),
+                                    color: Color(0xffffffff),
                                     fontWeight: FontWeight.w700,
                                     height: 1,
                                   ),
@@ -407,9 +407,9 @@ class XDGooglePixel6Pro59 extends StatelessWidget {
                             child:
                                 // Adobe XD layer: 'RedLogoAsset 4' (shape)
                                 Container(
-                              decoration: BoxDecoration(
+                              decoration: const BoxDecoration(
                                 image: DecorationImage(
-                                  image: const AssetImage(''),
+                                  image: AssetImage(''),
                                   fit: BoxFit.fill,
                                 ),
                               ),
@@ -434,12 +434,12 @@ class XDGooglePixel6Pro59 extends StatelessWidget {
                               Pinned.fromPins(
                                 Pin(size: 191.0, middle: 0.5818),
                                 Pin(size: 37.0, start: 11.0),
-                                child: Text(
+                                child: const Text(
                                   'Checkpoint #221',
                                   style: TextStyle(
                                     fontFamily: 'Adobe Clean',
                                     fontSize: 30,
-                                    color: const Color(0xffffffff),
+                                    color: Color(0xffffffff),
                                     fontWeight: FontWeight.w300,
                                     height: 1.9333333333333333,
                                   ),
@@ -451,12 +451,12 @@ class XDGooglePixel6Pro59 extends StatelessWidget {
                               Pinned.fromPins(
                                 Pin(size: 191.0, middle: 0.5818),
                                 Pin(size: 67.0, end: 9.4),
-                                child: Text(
+                                child: const Text(
                                   'Pánske toalety,\n2. Poschodie',
                                   style: TextStyle(
                                     fontFamily: 'Adobe Clean',
                                     fontSize: 30,
-                                    color: const Color(0xffffffff),
+                                    color: Color(0xffffffff),
                                     fontWeight: FontWeight.w700,
                                     height: 1,
                                   ),
@@ -473,9 +473,9 @@ class XDGooglePixel6Pro59 extends StatelessWidget {
                             child:
                                 // Adobe XD layer: 'RedLogoAsset 4' (shape)
                                 Container(
-                              decoration: BoxDecoration(
+                              decoration: const BoxDecoration(
                                 image: DecorationImage(
-                                  image: const AssetImage(''),
+                                  image: AssetImage(''),
                                   fit: BoxFit.fill,
                                 ),
                               ),
@@ -500,12 +500,12 @@ class XDGooglePixel6Pro59 extends StatelessWidget {
                               Pinned.fromPins(
                                 Pin(size: 196.0, end: 41.0),
                                 Pin(size: 37.0, start: 11.0),
-                                child: Text(
+                                child: const Text(
                                   'Checkpoint #222',
                                   style: TextStyle(
                                     fontFamily: 'Adobe Clean',
                                     fontSize: 30,
-                                    color: const Color(0xffffffff),
+                                    color: Color(0xffffffff),
                                     fontWeight: FontWeight.w300,
                                     height: 1.9333333333333333,
                                   ),
@@ -517,12 +517,12 @@ class XDGooglePixel6Pro59 extends StatelessWidget {
                               Pinned.fromPins(
                                 Pin(size: 203.0, end: 34.0),
                                 Pin(size: 67.0, end: 9.4),
-                                child: Text(
+                                child: const Text(
                                   'Dámske toalety,\n2. Poschodie',
                                   style: TextStyle(
                                     fontFamily: 'Adobe Clean',
                                     fontSize: 30,
-                                    color: const Color(0xffffffff),
+                                    color: Color(0xffffffff),
                                     fontWeight: FontWeight.w700,
                                     height: 1,
                                   ),
@@ -539,9 +539,9 @@ class XDGooglePixel6Pro59 extends StatelessWidget {
                             child:
                                 // Adobe XD layer: 'RedLogoAsset 4' (shape)
                                 Container(
-                              decoration: BoxDecoration(
+                              decoration: const BoxDecoration(
                                 image: DecorationImage(
-                                  image: const AssetImage(''),
+                                  image: AssetImage(''),
                                   fit: BoxFit.fill,
                                 ),
                               ),
@@ -566,12 +566,12 @@ class XDGooglePixel6Pro59 extends StatelessWidget {
                               Pinned.fromPins(
                                 Pin(size: 190.0, middle: 0.5766),
                                 Pin(size: 37.0, start: 11.0),
-                                child: Text(
+                                child: const Text(
                                   'Checkpoint #321',
                                   style: TextStyle(
                                     fontFamily: 'Adobe Clean',
                                     fontSize: 30,
-                                    color: const Color(0xffffffff),
+                                    color: Color(0xffffffff),
                                     fontWeight: FontWeight.w300,
                                     height: 1.9333333333333333,
                                   ),
@@ -583,12 +583,12 @@ class XDGooglePixel6Pro59 extends StatelessWidget {
                               Pinned.fromPins(
                                 Pin(size: 191.0, middle: 0.5818),
                                 Pin(size: 67.0, end: 9.4),
-                                child: Text(
+                                child: const Text(
                                   'Pánske toalety,\n3. Poschodie',
                                   style: TextStyle(
                                     fontFamily: 'Adobe Clean',
                                     fontSize: 30,
-                                    color: const Color(0xffffffff),
+                                    color: Color(0xffffffff),
                                     fontWeight: FontWeight.w700,
                                     height: 1,
                                   ),
@@ -605,9 +605,9 @@ class XDGooglePixel6Pro59 extends StatelessWidget {
                             child:
                                 // Adobe XD layer: 'RedLogoAsset 4' (shape)
                                 Container(
-                              decoration: BoxDecoration(
+                              decoration: const BoxDecoration(
                                 image: DecorationImage(
-                                  image: const AssetImage(''),
+                                  image: AssetImage(''),
                                   fit: BoxFit.fill,
                                 ),
                               ),
@@ -632,12 +632,12 @@ class XDGooglePixel6Pro59 extends StatelessWidget {
                               Pinned.fromPins(
                                 Pin(size: 195.0, end: 42.0),
                                 Pin(size: 37.0, start: 11.0),
-                                child: Text(
+                                child: const Text(
                                   'Checkpoint #322',
                                   style: TextStyle(
                                     fontFamily: 'Adobe Clean',
                                     fontSize: 30,
-                                    color: const Color(0xffffffff),
+                                    color: Color(0xffffffff),
                                     fontWeight: FontWeight.w300,
                                     height: 1.9333333333333333,
                                   ),
@@ -649,12 +649,12 @@ class XDGooglePixel6Pro59 extends StatelessWidget {
                               Pinned.fromPins(
                                 Pin(size: 203.0, end: 34.0),
                                 Pin(size: 67.0, end: 9.4),
-                                child: Text(
+                                child: const Text(
                                   'Dámske toalety,\n3. Poschodie',
                                   style: TextStyle(
                                     fontFamily: 'Adobe Clean',
                                     fontSize: 30,
-                                    color: const Color(0xffffffff),
+                                    color: Color(0xffffffff),
                                     fontWeight: FontWeight.w700,
                                     height: 1,
                                   ),
@@ -671,9 +671,9 @@ class XDGooglePixel6Pro59 extends StatelessWidget {
                             child:
                                 // Adobe XD layer: 'RedLogoAsset 4' (shape)
                                 Container(
-                              decoration: BoxDecoration(
+                              decoration: const BoxDecoration(
                                 image: DecorationImage(
-                                  image: const AssetImage(''),
+                                  image: AssetImage(''),
                                   fit: BoxFit.fill,
                                 ),
                               ),
@@ -696,7 +696,7 @@ class XDGooglePixel6Pro59 extends StatelessWidget {
                   transition: LinkTransition.Fade,
                   ease: Curves.easeInOut,
                   duration: 0.2,
-                  pageBuilder: () => XDGooglePixel6Pro35(),
+                  pageBuilder: () => const XDGooglePixel6Pro35(),
                 ),
               ],
               child: Stack(
@@ -704,8 +704,8 @@ class XDGooglePixel6Pro59 extends StatelessWidget {
                   Transform.rotate(
                     angle: 0.7854,
                     child: Container(
-                      decoration: BoxDecoration(
-                        color: const Color(0xffffffff),
+                      decoration: const BoxDecoration(
+                        color: Color(0xffffffff),
                         borderRadius: BorderRadius.only(
                           topLeft: Radius.circular(4.32),
                           topRight: Radius.circular(4.32),
@@ -713,15 +713,15 @@ class XDGooglePixel6Pro59 extends StatelessWidget {
                           bottomLeft: Radius.circular(4.32),
                         ),
                       ),
-                      margin: EdgeInsets.symmetric(
+                      margin: const EdgeInsets.symmetric(
                           horizontal: -3.3, vertical: 14.9),
                     ),
                   ),
                   Transform.rotate(
                     angle: -0.7854,
                     child: Container(
-                      decoration: BoxDecoration(
-                        color: const Color(0xffffffff),
+                      decoration: const BoxDecoration(
+                        color: Color(0xffffffff),
                         borderRadius: BorderRadius.only(
                           topLeft: Radius.circular(4.32),
                           topRight: Radius.circular(4.32),
@@ -729,7 +729,7 @@ class XDGooglePixel6Pro59 extends StatelessWidget {
                           bottomLeft: Radius.circular(4.32),
                         ),
                       ),
-                      margin: EdgeInsets.symmetric(
+                      margin: const EdgeInsets.symmetric(
                           horizontal: -3.3, vertical: 14.9),
                     ),
                   ),
